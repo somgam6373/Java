@@ -4,11 +4,12 @@ public class CoutinueExample {
 
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
-		for(int i=1; i<=10;i++) {
-			if(i%2 != 0) {
-				continue;
-			}
-			System.out.println(i + " ");
+		int[] scores = {1,2,3};
+		print(new int[] {1,2,4});
+	}
+	public static void print(int []scores) {
+		for(int i = 0; i<scores.length;i++) {
+			System.out.println(scores[i]);
 		}
 	}
 
